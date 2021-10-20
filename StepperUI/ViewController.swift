@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         myStepper.wraps = false
         // UIStepper increment or decrement by 2 every time the button is tapped
         //myStepper.stepValue = 3
-        //add an action
+        //add an action   .
         myStepper.addTarget(self, action: #selector(stepperValueChanged(_:)), for: .valueChanged)
         myStepper.translatesAutoresizingMaskIntoConstraints = false
         return myStepper
